@@ -1,0 +1,190 @@
+/*
+font-family: 'Poppins', sans-serif;
+*/
+.first-heading{
+    font-weight: 200;
+    color:  hsl(0, 1%, 34%);
+    text-align: center;
+}
+
+.second-heading{
+    font-weight: 600;
+    color:  hsl(0, 1%, 35%);
+    text-align: center;
+}
+
+.first-para{
+    font-weight: 400;
+    color:  hsl(0, 1%, 63%);
+    text-align: center;
+    padding: 0% 33% 0% 33%;
+    font-weight: smaller;
+}
+
+.col-row{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 18%;
+    padding-right: 16%;
+}
+
+
+
+.two-in-one-col{
+    width: 300px;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.column-heading{
+    font-weight: 600;
+    color:  hsl(0, 1%, 35%);
+    
+}
+
+.supervisor-div{
+    border-top: 4px solid hsl(180, 62%, 55%);
+    background-color: white;
+    height: 235px;
+    width: 300px;
+    margin-top: 140px;
+    box-shadow: 0px 4px 12px 0px hsl(233, 8%, 80%);
+}
+
+.team_builder-div{
+    border-top: 4px solid hsl(0, 78%, 62%);
+    background-color: white;
+    height: 235px;
+    width: 100%;
+    box-shadow: 0px 4px 12px 0px hsl(233, 8%, 80%);
+}
+
+.karma-div{
+    border-top: 4px solid hsl(34, 97%, 64%);
+    background-color: white;
+    height: 235px;
+    width: 100%;
+    box-shadow: 0px 4px 12px 0px hsl(233, 8%, 80%);
+}
+
+.calculator-div{
+    border-top: 4px solid hsl(212, 86%, 64%);
+    background-color: white;
+    height: 235px;
+    width: 300px;
+    margin-top: 140px;
+    box-shadow: 0px 4px 12px 0px hsl(233, 8%, 80%);
+}
+
+.img-div{
+    text-align: right;
+}
+
+.col-para{
+    font-weight: 400;
+    color:  hsl(0, 1%, 63%);
+    font-size: smaller;
+}
+
+
+/*RWD View*/
+@media only screen and (max-width: 1480px) {
+    .col-row{
+        padding-left: 17%;
+        padding-right: 14%;
+    }
+}
+
+@media only screen and (max-width: 1420px) {
+    .col-row{
+        padding-left: 16%;
+        padding-right: 12%;
+    }
+}
+
+@media only screen and (max-width: 1340px) {
+    .col-row{
+        padding-left: 12%;
+        padding-right: 8%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .col-row{
+        padding-left: 7%;
+        padding-right: 5%;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .col-row{
+        padding-left: 4%;
+        padding-right: 2%;
+    }
+}
+
+@media only screen and (max-width: 1025px) {
+    .col-row{
+        display: block;
+        margin-left: auto;
+        margin-left: 30%;
+    }
+
+    .supervisor-div{
+        margin-top: 0;
+    }
+
+    .two-in-one-col{
+        margin: 23px 0px 23px 0px;
+    }
+
+    .calculator-div{
+        margin-top: 0;
+    }
+}
+
+@media only screen and (max-width: 810px) {
+    .col-row{
+        margin-left: auto;
+        margin-left: 25%;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .col-row{
+        margin-left: auto;
+        margin-left: 20%;
+    }
+
+    .first-para{
+        padding: 0% 10% 0% 10%;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    .col-row{
+        margin-left: auto;
+        margin-left: 13%;
+    }
+
+    .first-para{
+        padding: 0% 6% 0% 6%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .col-row{
+        margin-left: auto;
+        margin-left: 10%;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .col-row{
+        margin-left: auto;
+        margin-left: 0.5%;
+    }
+    .first-para{
+        padding: 0% 3% 0% 3%;
+    }
+}
